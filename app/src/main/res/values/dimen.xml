@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="heroTitle_padding_start">16dp</dimen>
+    <dimen name="heroTitle_text_size">20sp</dimen>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinzinhaFundo"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/main_title"
+        android:textSize="32sp"></TextView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_hero01"
+        style="@style/cardView"
+        android:layout_gravity="center">
+
+        <ImageView
+            style="@style/cardImage"
+            android:contentDescription="@string/hero01"
+            app:srcCompat="@drawable/hero01"/>
+
+        <LinearLayout
+            style="@style/cardContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/cardCodiNome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hero01" />
+
+            <TextView
+                style="@style/cardNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hero01_name" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_hero02"
+        style="@style/cardView"
+        android:layout_gravity="center">
+
+        <ImageView
+            style="@style/cardImage"
+            android:contentDescription="@string/hero02"
+            app:srcCompat="@drawable/hero02" />
+
+        <LinearLayout
+            style="@style/cardContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/cardCodiNome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hero02" />
+
+            <TextView
+                style="@style/cardNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hero02_name" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_hero03"
+        style="@style/cardView"
+        android:layout_gravity="center">
+
+        <ImageView
+            style="@style/cardImage"
+            android:contentDescription="@string/hero03"
+            app:srcCompat="@drawable/hero03" />
+
+        <LinearLayout
+            style="@style/cardContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/cardCodiNome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hero03" />
+
+            <TextView
+                style="@style/cardNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hero03_name" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_hero04"
+        style="@style/cardView"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/cardImage"
+            android:contentDescription="@string/hero04"
+            app:srcCompat="@drawable/hero04" />
+
+        <LinearLayout
+            style="@style/cardContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/cardCodiNome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hero04" />
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/cardNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hero04_name" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

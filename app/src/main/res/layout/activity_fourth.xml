@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowActivityTransitions="true">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:transitionName="layoutTransition">
+
+            <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/hero04"
+            />
+    </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/hero04"
+                android:textSize="30sp"/>
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@mipmap/ic_like_round"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-40dp"
+                android:onClick="likeIt"/>
+
+            <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:text="@string/hero04_name"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/heroTitle_padding_start"
+        android:text="@string/habilidadeTitle"
+        android:textSize="20sp" />
+
+    <TextView
+        style="@style/heroItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hero04_habilidade_01" />
+
+    <TextView
+        style="@style/heroDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hero04_habilidade_descricao_01" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/heroTitle_padding_start"
+        android:text="@string/vulnerabilidadeTitle"
+        android:textSize="@dimen/heroTitle_text_size" />
+
+    <TextView
+        style="@style/heroItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hero04_vulnerabilidade_01" />
+
+    <TextView
+        style="@style/heroDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hero04_vulnerabilidade_descricao_01" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/heroTitle_padding_start"
+        android:text="@string/equipamentoTitle"
+        android:textSize="@dimen/heroTitle_text_size" />
+
+    <TextView
+        style="@style/heroItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hero04_equipamento_01" />
+
+    <TextView
+        style="@style/heroDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hero04_equipamento_descricao_01" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

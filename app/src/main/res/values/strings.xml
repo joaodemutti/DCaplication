@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">DCaplication</string>
+    <string name="main_title">Herois:</string>
+
+    <string name="hero01">Batman</string>
+    <string name="hero01_name">Bruce Wayne</string>
+    <string name="hero01_habilidade_01">Combate corpo a corpo</string>
+    <string name="hero01_habilidade_descricao_01">Com um dos melhores treinamentos do mundo, batman é mestre em artes marciais, tendo conhecimento em diferentes tipos de luta.</string>
+    <string name="hero01_habilidade_02">Maior detetve do mundo</string>
+    <string name="hero01_habilidade_descricao_02">Batman o melhor detetive do mundo, com o auxilio de suas tecnologias, não há vilão que se esconda desse heroi.</string>
+    <string name="hero01_vulnerabilidade_01">Heroi</string>
+    <string name="hero01_vulnerabilidade_descricao_01">Batman é um humano como qualquer outro, porem, seu compromisso de não matar e salvar o outro, o leva até um sacrficio.</string>
+    <string name="hero01_equipamento_01">Batcinto</string>
+    <string name="hero01_equipamento_descricao_01">Em seu cinto carrega um arsenal de equipamentos de ataque nao letal.</string>
+    <string name="hero01_equipamento_02">Batgarra</string>
+    <string name="hero01_equipamento_descricao_02">Dispositivo com estrutura semelhante a uma pistola, a bat garra é um lançador de corda capaz de puxar e aguentar ate 150kg.</string>
+    <string name="hero01_link">https://i.pinimg.com/originals/dc/47/43/dc4743ec084be6c45b2c023a39a37925.jpg</string>
+
+    <string name="hero02">Wonder Woman</string>
+    <string name="hero02_name">Diana Paraiso</string>
+    <string name="hero02_habilidade_01">Super força</string>
+    <string name="hero02_habilidade_descricao_01">Possui uma força estrondoza e des-humana. Ganharia de qualquer homem no braço de ferro.</string>
+    <string name="hero02_vulnerabilidade_01">União mazoquista</string>
+    <string name="hero02_vulnerabilidade_descricao_01">Com a união de seus braceletes, a mulher maravilha enfraquece!! seus poderes não mais funcionaram, amarra-la então, é uma boa opção</string>
+    <string name="hero02_equipamento_01">Laço Mágico</string>
+    <string name="hero02_equipamento_descricao_01">Com seu laço mággico e brilhoso, Diana expande seus movimentos de ataques em combate.</string>
+
+
+    <string name="hero03">Flash</string>
+    <string name="hero03_name">Barry Allen</string>
+    <string name="hero03_habilidade_01">Super-velocidade</string>
+    <string name="hero03_habilidade_descricao_01">O flash tem sua importancia devido a seu poder de super-velocidade, o que o possibilita desafiar as leis da fisica e quebrar a realidade, suas habilidades florescem de acordo com sua velocidade, mais uma lei quebrada, mais uma habilidade.</string>
+    <string name="hero03_vulnerabilidade_01">Frio absoluto</string>
+    <string name="hero03_vulnerabilidade_descricao_01">Barry é um humano, feito de carne e osso ele pode ser ferido, alcança-lo é o desafio. Segundo a lei de físicos que acreditam na ciência, quanto mais energia, mais calor! Logo, temperatura sub-zero e baixissimas conseguem o acalma-lo</string>
+    <string name="hero03_link">https://i.pinimg.com/originals/d6/fc/7b/d6fc7bc33aa3e9fa9b44b80249d2a040.jpg</string>
+
+    <string name="hero04">Lanterna Verde</string>
+    <string name="hero04_name">Yan Reynolds</string>
+    <string name="hero04_habilidade_01">Anel</string>
+    <string name="hero04_habilidade_descricao_01">Seu anel lhe pertence, ou seja, o anel voa ate ele e funciona só com ele.</string>
+    <string name="hero04_vulnerabilidade_01">Yellow</string>
+    <string name="hero04_vulnerabilidade_descricao_01">Amarelo representa o medo, esse capaz de vencer o lanterna. A cor amarela o enfraquece</string>
+    <string name="hero04_equipamento_01">Anel verde</string>
+    <string name="hero04_equipamento_descricao_01">Seu anel o permite projeta uma materia fisica que se transforma no que quiser. Atomo por atomo ele pode vir a se tornar perigoso</string>
+    <string name="hero04_link">https://i.pinimg.com/originals/a4/ce/25/a4ce25d7fcf9caddc5e46a48e0708beb.jpg</string>
+
+    <string name="habilidadeTitle">Habilidades:</string>
+    <string name="vulnerabilidadeTitle">Vulnerabilidades:</string>
+    <string name="equipamentoTitle">Equipamentos:</string>
+</resources>
